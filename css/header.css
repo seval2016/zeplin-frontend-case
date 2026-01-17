@@ -1,0 +1,48 @@
+/* ===============================
+   TOP INFO BAR
+================================ */
+
+.top-info-bar {
+  background: var(--primary);
+  color: #fff;
+  font-size: 14px;
+}
+
+.top-info-bar .container {
+  height: 40px;
+}
+
+/* ===============================
+   MAIN NAVBAR
+================================ */
+
+.main-navbar {
+  border-bottom: 1px solid var(--light);
+}
+
+.main-navbar .navbar-brand {
+ background-color: var(--secondary);
+}
+
+.main-navbar .nav-link {
+  color: var(--dark);
+  font-weight: 500;
+}
+
+.main-navbar .nav-link.active,
+.main-navbar .nav-link:hover {
+  color: var(--primary);
+}
+
+/* Buttons */
+
+.btn-pill {
+  border-radius: 999px;
+  padding: 8px 18px;
+}
+
+.btn-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}

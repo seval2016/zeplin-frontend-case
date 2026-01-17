@@ -1,0 +1,13 @@
+/* ===============================
+   FOOTER
+================================ */
+
+.site-footer {
+  background: var(--dark);
+  color: #fff;
+  padding: 48px 0;
+}
+
+.site-footer a {
+  color: var(--light);
+}

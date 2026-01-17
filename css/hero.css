@@ -1,0 +1,13 @@
+/* ===============================
+   HERO SECTION
+================================ */
+
+.hero-section {
+  background: var(--primary);
+  color: #fff;
+  padding: 80px 0;
+}
+
+.hero-title {
+  font-weight: 700;
+}
