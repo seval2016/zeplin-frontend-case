@@ -6,8 +6,7 @@ function loadSection(id, file) {
     });
 }
 
-loadSection("topbar", "partials/topbar.html");
-loadSection("navbar", "partials/navbar.html");
+loadSection("header", "partials/header.html");
 loadSection("hero", "partials/hero.html");
 loadSection("about", "partials/about.html");
 loadSection("publications", "partials/publications.html");
