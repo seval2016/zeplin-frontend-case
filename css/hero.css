@@ -56,22 +56,18 @@
 
 /* ikonlar */
 .icon-book {
-  -webkit-mask-image: url("../assets/icons/cilt.svg");
   mask-image: url("../assets/icons/cilt.svg");
 }
 
 .icon-file {
-  -webkit-mask-image: url("../assets/icons/number.svg");
   mask-image: url("../assets/icons/number.svg");
 }
 
 .icon-calendar {
-  -webkit-mask-image: url("../assets/icons/calendar.svg");
   mask-image: url("../assets/icons/calendar.svg");
 }
 
 .right-icon{
-  background-color: #fff;
   mask-image: url("../assets/icons/right.svg");
 }
 

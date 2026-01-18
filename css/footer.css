@@ -1,24 +1,26 @@
-/* ===============================
-   FOOTER
-================================ */
+/* ================= FOOTER ================= */
 
 .site-footer {
-  background: var(--dark);
+  background: #161F3C;
   color: #fff;
-  padding: 48px 0;
 }
 
 .site-footer a {
   color: var(--light);
 }
+.footer-desc {
+  font-size: 13px;
+}
 
 /* Button SVG base */
 
 .icon-id-card {
-  -webkit-mask-image: url("../assets/icons/id-card.svg");
   mask-image: url("../assets/icons/id-card.svg");
 }
 .icon-location {
-  -webkit-mask-image: url("../assets/icons/location.svg");
   mask-image: url("../assets/icons/location.svg");
+}
+.icon-send-email {
+  width: 14px !important;
+  mask-image: url("../assets/icons/export-email.svg");
 }
