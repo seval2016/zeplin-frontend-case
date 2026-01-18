@@ -1,0 +1,149 @@
+.publications-section {
+  background: #fff;
+}
+
+/* BORDER */
+
+#pubCarousel .border {
+  border-color: #e9f4f8;
+}
+
+/* CARD */
+
+.mag-card {
+  background: #fff;
+  transition: 0.3s;
+}
+
+.mag-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* BADGE */
+
+.badge-info {
+  background: #f6f8ff;
+  font-size: var(--font-sm);
+  border-radius: 15px;
+  color: var(--primary);
+}
+
+/* META */
+
+.publications-meta {
+  display: flex;
+  gap: 20px;
+  margin: 14px 0;
+}
+
+/* ICON BASE */
+
+.card-icon-svg {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background-color: var(--dark);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+
+/* ICONS */
+
+.pdf-icon {
+  background-color: var(--pageGray);
+  -webkit-mask-image: url("../assets/icons/pdf.svg");
+  mask-image: url("../assets/icons/pdf.svg");
+}
+
+.icon-book {
+  -webkit-mask-image: url("../assets/icons/cilt.svg");
+  mask-image: url("../assets/icons/cilt.svg");
+}
+
+.icon-file {
+  -webkit-mask-image: url("../assets/icons/number.svg");
+  mask-image: url("../assets/icons/number.svg");
+}
+
+.icon-calendar {
+  -webkit-mask-image: url("../assets/icons/calendar.svg");
+  mask-image: url("../assets/icons/calendar.svg");
+}
+
+.right-icon {
+  -webkit-mask-image: url("../assets/icons/right.svg");
+  mask-image: url("../assets/icons/right.svg");
+}
+
+.left-icon {
+  background-color: var(--gray);
+  -webkit-mask-image: url("../assets/icons/left.svg");
+  mask-image: url("../assets/icons/left.svg");
+}
+
+.icon-download {
+  -webkit-mask-image: url("../assets/icons/download.svg");
+  mask-image: url("../assets/icons/download.svg");
+}
+
+.icon-eye {
+  -webkit-mask-image: url("../assets/icons/eye.svg");
+  mask-image: url("../assets/icons/eye.svg");
+}
+
+/* BUTTON SIZE */
+
+.publications-section .btn {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-right-info {
+  background-color: #f5f7ff;
+}
+
+.btn-right-info > .right-icon {
+  background-color: var(--primary) !important;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 992px) {
+
+  .publications-meta {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .mag-card {
+    padding: 20px;
+  }
+
+  .mag-card h6 {
+    font-size: 15px;
+  }
+
+  .publications-meta {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .row.align-items-stretch {
+    align-items: start;
+  }
+
+  .object-fit-cover {
+    min-height: 140px;
+  }
+}

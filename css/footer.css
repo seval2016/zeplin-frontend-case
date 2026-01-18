@@ -11,3 +11,14 @@
 .site-footer a {
   color: var(--light);
 }
+
+/* Button SVG base */
+
+.icon-id-card {
+  -webkit-mask-image: url("../assets/icons/id-card.svg");
+  mask-image: url("../assets/icons/id-card.svg");
+}
+.icon-location {
+  -webkit-mask-image: url("../assets/icons/location.svg");
+  mask-image: url("../assets/icons/location.svg");
+}

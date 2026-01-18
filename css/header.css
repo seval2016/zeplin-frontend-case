@@ -153,26 +153,13 @@
 
 /* Button SVG base */
 
-.btn-icon-svg {
-  width: 18px;
-  height: 18px;
-  display: inline-block;
-  margin-right: 8px;
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
-  -webkit-mask-position: center;
-  mask-position: center;
-  -webkit-mask-size: contain;
-  mask-size: contain;
-}
+
 
 .icon-kurul {
-  -webkit-mask-image: url("../assets/icons/kurul.svg");
   mask-image: url("../assets/icons/kurul.svg");
 }
 
 .icon-author {
-  -webkit-mask-image: url("../assets/icons/author.svg");
   mask-image: url("../assets/icons/author.svg");
 }
 

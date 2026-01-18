@@ -33,49 +33,25 @@
   max-width: 700px;
 }
 
-.hero-subtitle {
-  font-size: 14px;
-  opacity: 0.9;
-}
-
 .hero-title {
-  font-weight: 700;
   margin: 8px 0 12px;
-}
-
-.hero-desc {
-  line-height: 1.6;
 }
 
 .hero-lead {
   width: 400px;
-  line-height: 1.6;
-  margin: 20px 0;
   font-size: var(--font-lg);
-  line-height: 1.6;
+  
+}
+
+.hero-btn{
+  width: 200px;
+  font-size: var(--font-md);
 }
 
 /* META */
 
 .hero-meta {
-  display: flex;
-  gap: 20px;
-  margin: 14px 0;
-}
-
-.meta-item {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 13px;
-  color: #fff;
-  opacity: 0.9;
-}
-
-.btn-icon-svg {
-  width: 16px;
-  height: 16px;
-  background: #fff;
+  font-size: var(--font-md);
 }
 
 /* ikonlar */
@@ -96,17 +72,8 @@
 
 .right-icon{
   background-color: #fff;
-    -webkit-mask-image: url("../assets/icons/right.svg");
   mask-image: url("../assets/icons/right.svg");
 }
-
-/* hero buton*/
-.btn-wide {
-  width: 200px;
-  height: 50px;
-  max-width: 100%;
-}
-
 
 /* SAĞ IMAGE */
 

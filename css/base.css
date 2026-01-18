@@ -8,9 +8,10 @@
   --danger: #DB0D15;
   --warning: #DE8536;
   --info: #00C3D0;
-  --light: #FBF6E3;
+  --light: #dee3f8;
   --dark: #2A2C31;
   --gray: #ACB1C6;
+  --pageGray:#676A73;
 
   /* Hover tones */
   --primary-hover: #060f30;
@@ -19,7 +20,7 @@
   --danger-hover: #b90b12;
   --warning-hover: #c7732f;
   --info-hover: #00aab6;
-  --light-hover: #f2f1e3;
+  --light-hover: #dee3f8;
   --dark-hover: #1e2025;
   --gray-hover: #9aa1b6;
 
@@ -261,4 +262,90 @@ BUTTON SYSTEM
 .btn:focus-visible {
   outline: none;
   box-shadow: 0 0 0 3px rgba(8,21,66,.35);
+}
+
+/* ===============================
+   BOOTSTRAP TEXT OVERRIDES
+================================ */
+
+/* PRIMARY */
+.text-primary {
+  color: var(--primary) !important;
+}
+
+/* SECONDARY */
+.text-secondary {
+  color: var(--secondary) !important;
+}
+
+/* SUCCESS */
+.text-success {
+  color: var(--success) !important;
+}
+
+/* DANGER */
+.text-danger {
+  color: var(--danger) !important;
+}
+
+/* WARNING */
+.text-warning {
+  color: var(--warning) !important;
+}
+
+/* INFO */
+.text-info {
+  color: var(--info) !important;
+}
+
+/* LIGHT */
+.text-light {
+  color: var(--light) !important;
+}
+
+/* DARK */
+.text-dark {
+  color: var(--dark) !important;
+}
+
+/* CUSTOM GRAY */
+.text-gray {
+  color: var(--pageGray) !important;
+}
+
+
+/* ===============================
+   BOOTSTRAP BG COLOR OVERRIDES
+================================ */
+
+.bg-primary{
+  background-color: var(--primary) !important;
+}
+
+.bg-secondary{
+  background-color: var(--secondary) !important;
+}
+
+.bg-success{
+  background-color: var(--success) !important;
+}
+
+.bg-danger{
+  background-color: var(--danger) !important;
+}
+
+.bg-warning{
+  background-color: var(--warning) !important;
+}
+
+.bg-info{
+  background-color: var(--info) !important;
+}
+
+.bg-light{
+  background-color: var(--light) !important;
+}
+
+.bg-dark{
+  background-color: var(--dark) !important;
 }

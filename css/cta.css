@@ -1,0 +1,101 @@
+/* ================= CTA ================= */
+
+.cta-section {
+  margin-top: 50px;
+}
+
+.cta-wrapper {
+  background-image: url("/assets/images/cta_bg.jpg");
+  border-radius: 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* LEFT IMAGE */
+
+.cta-left {
+  max-width: 450px;
+}
+
+/* ICON */
+
+.cta-icon img {
+  filter: brightness(0) saturate(100%) invert(16%) sepia(90%) saturate(2500%)
+    hue-rotate(350deg);
+}
+
+/* TEXT */
+
+.cta-subtitle {
+  font-size: 14px;
+  color: var(--gray);
+}
+
+.cta-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--secondary);
+}
+
+.cta-desc {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--pageGray);
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+/* BUTTON */
+
+.cta-section .btn-danger {
+  font-size: 14px;
+  padding: 10px 26px;
+}
+
+/* PHONE */
+
+.cta-phone {
+  max-width: 230px;
+}
+
+/* RIGHT IMAGE POSITION FIX */
+
+.cta-wrapper {
+  position: relative; /* referans */
+}
+
+.cta-wrapper .col-lg-3:last-child {
+  position: relative;
+}
+
+.cta-wrapper .col-lg-3:last-child img {
+  position: absolute;
+  bottom: -170px;
+  right: 25px;
+  max-width: 300px;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+  /* Genel boşluk */
+  .cta-section {
+    margin-top: 30px;
+  }
+
+  .cta-wrapper .col-lg-3:last-child img {
+    position: relative;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    max-width: 100%;
+  }
+  .cta-wrapper {
+    border-radius: 0;
+  }
+
+  .cta-left {
+    content: url("../assets/images/cta_left.png");
+  }
+}

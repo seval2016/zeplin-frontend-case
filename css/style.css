@@ -5,22 +5,19 @@
 ===================================================== */
 
 
-/* =====================================================
-   IMPORTS
-   (Order matters!)
-===================================================== */
+/*  ========= IMPORTS ========= */
 
 @import url("base.css");
 @import url("header.css"); 
 @import url("hero.css");
 @import url("about.css");
+@import url("publications.css");
+@import url("cta.css");
 @import url("cards.css");
 @import url("footer.css");
 
 
-/* =====================================================
-   GLOBAL UTILITIES
-===================================================== */
+/*  ========= GLOBAL UTILITIES ========= */
 
 /* Text helpers */
 .text-primary-custom {
@@ -52,10 +49,27 @@
   justify-content: center;
 }
 
-
 /* =====================================================
-   GLOBAL COMPONENT OVERRIDES
+   GLOBAL TITLE
 ===================================================== */
+
+.sub-title {
+  color: var(--pageGray);
+  display: block;
+}
+
+.section-title {
+  font-weight: 700;
+  color: var(--secondary);
+}
+
+.section-desc{
+  font-size: var(--font-md);
+  line-height: 1.6;
+  color: var(--dark);
+}
+
+/* ========= GLOBAL COMPONENT OVERRIDES ========= */
 
 /* Buttons */
 .btn {
@@ -79,6 +93,24 @@ a {
 
 a:hover {
   text-decoration: none;
+}
+
+.btn-wide {
+  width: 180px;
+  height: 50px;
+  max-width: 100%;
+}
+
+.btn-icon-svg {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
 }
 
 
