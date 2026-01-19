@@ -37,21 +37,6 @@
   margin: 14px 0;
 }
 
-/* ICON BASE */
-
-.card-icon-svg {
-  width: 1px;
-  height: 14px;
-  display: inline-block;
-  background-color: var(--dark);
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
-  -webkit-mask-position: center;
-  mask-position: center;
-  -webkit-mask-size: contain;
-  mask-size: contain;
-}
-
 /*CAROUSEL TOP LEFT*/
 
 .publications-top-left {
@@ -61,6 +46,8 @@
 /* ICONS */
 
 .pdf-icon {
+  width: 22px !important;
+  height: 22px !important;
   background-color: var(--pageGray);
   -webkit-mask-image: url("../assets/icons/pdf.svg");
   mask-image: url("../assets/icons/pdf.svg");

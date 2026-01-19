@@ -1,10 +1,12 @@
+.latest-articles-left {
+  border: 4px solid #ffd9da !important;
+}
 
+/* CARD*/
 
-/**/
-
-.card-item{
+.card-item {
   border: 2px solid #dfe3f1;
-        border-radius: 20px;
+  border-radius: 20px;
 }
 
 /* ICON BUTTON */
@@ -26,24 +28,26 @@
   mask-image: url("../assets/icons/export-email.svg");
 }
 
-.icon-author{
+.icon-author {
+    background-color: var(--dark);
   mask-image: url("../assets/icons/author.svg");
 }
 
-.icon-stickyNotes{
+.icon-stickyNotes {
+  background-color: var(--dark);
   mask-image: url("../assets/icons/stickyNotes.svg");
 }
-.icon-download{
+.icon-download {
+  
   background-color: var(--dark);
   mask-image: url("../assets/icons/download.svg");
 }
-.icon-pdf{
-  width: 22px;
-  height: 22px;
+.icon-pdf {
+  width: 22px !important;
+  height: 22px !important;
   background-color: var(--pageGray);
   mask-image: url("../assets/icons/pdf.svg");
 }
-
 
 /* SMALL ICON BUTTON CIRCLE */
 
@@ -59,12 +63,5 @@
   justify-content: center;
 
   flex-shrink: 0;
-}
-
-/* ICON SIZE */
-
-.icon-circle .card-icon-svg {
-  width: 14px;
-  height: 14px;
 }
 
