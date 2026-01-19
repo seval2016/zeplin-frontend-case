@@ -1,16 +1,19 @@
 <section class="py-5">
   <div class="container">
     <div class="row g-4 align-items-start">
+
       <!-- LEFT COVER -->
-      <div class="col-lg-4">
+      <div class="col-12 col-lg-4">
         <div
-          class="border rounded-4 p-3 text-center bg-white position-relative shadow-sm latest-articles-left"
+          class="border rounded-4 p-3 text-center bg-white position-relative shadow-sm"
         >
+
           <!-- RIBBON -->
           <span
-            class="badge bg-danger fw-medium position-absolute rounded-start-0 start-0 top-50 translate-middle-y"
+            class="badge bg-danger fw-medium position-absolute 
+            start-0 top-50 translate-middle-y rounded-start-0"
           >
-            <span class="btn-vertical-text"> Son Sayı </span>
+            <span class="btn-vertical-text">Son Sayı</span>
           </span>
 
           <img
@@ -20,8 +23,8 @@
           />
 
           <!-- ACTIONS -->
-          <div class="d-flex justify-content-center gap-2">
-            
+          <div class="d-flex justify-content-center gap-2 flex-wrap">
+
             <!-- DOWNLOAD -->
             <button class="btn-ui outline primary btn-icon">
               <span class="btn-icon-svg icon-download"></span>
@@ -29,7 +32,8 @@
 
             <!-- VIEW -->
             <button
-              class="btn-ui secondary rounded-pill px-4 d-flex align-items-center justify-content-between gap-2"
+              class="btn-ui secondary rounded-pill px-4 
+              d-flex align-items-center gap-2"
             >
               <span class="btn-icon-svg icon-eye bg-white"></span>
               <span>Görüntüle</span>
@@ -39,10 +43,13 @@
       </div>
 
       <!-- RIGHT CONTENT -->
-      <div class="col-lg-8">
+      <div class="col-12 col-lg-8">
+
         <!-- HEADER -->
         <div
-          class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2"
+          class="d-flex flex-column flex-md-row 
+          justify-content-between align-items-md-center 
+          mb-4 gap-3"
         >
           <div>
             <span class="sub-title d-block mb-1">
@@ -54,46 +61,60 @@
           <!-- VIEW ALL -->
           <a
             href="#"
-            class="btn-ui outline primary fw-normal mt-3 d-flex align-items-center justify-content-between gap-2 rounded-pill py-3"
+            class="btn-ui outline primary fw-normal 
+            d-flex align-items-center gap-2 rounded-pill"
           >
             <span>Tümünü Görüntüle</span>
             <span class="btn-icon-svg right-icon bg-ui-dark"></span>
           </a>
         </div>
 
-        <!-- ARTICLE LIST -->
-
-        <!-- ITEM -->
+        <!-- ARTICLE ITEM -->
         <div class="card mb-3 shadow-sm border-0 rounded-4">
-          <div class="card-body card-item rounded-4">
+          <div class="card-body rounded-4">
+
             <div
-              class="d-flex justify-content-between align-items-end flex-wrap gap-3"
+              class="d-flex flex-column flex-lg-row 
+              justify-content-between gap-3"
             >
+
               <!-- LEFT -->
               <div>
-                <div class="mb-2">
-                  <span class="badge-ui climate rounded fw-normal"> İklim</span>
-                  <span class="badge bg-light bg-light-custom border-0 text-ui-primary fw-normal border">
+
+                <!-- BADGES -->
+                <div class="mb-2 d-flex flex-wrap gap-2">
+                  <span class="badge-ui climate fw-normal">İklim</span>
+
+                  <span
+                    class="badge bg-light border 
+                    text-ui-primary fw-normal"
+                  >
                     Araştırma Makalesi
                   </span>
                 </div>
 
-                <div
-                  class="d-flex align-items-sm-start gap-3 justify-content-center"
-                >
+                <!-- TITLE -->
+                <div class="d-flex align-items-start gap-3">
                   <span class="btn-icon-svg icon-pdf bg-ui-pagegray"></span>
+
                   <h6 class="fw-bold mb-2">
                     Türkiye'nin Teknoloji Politikaları ve Döngüsel Ekonomi
                   </h6>
                 </div>
 
-                <div class="text-muted small d-flex gap-3 flex-wrap">
+                <!-- META -->
+                <div
+                  class="text-muted small 
+                  d-flex flex-column flex-md-row 
+                  gap-3 flex-wrap"
+                >
+
                   <div class="d-flex align-items-center gap-2">
                     <span class="icon-circle">
                       <span class="btn-icon-svg icon-author"></span>
                     </span>
                     <span class="text-dark">Sayı:</span>
-                    <strong class="text-black">12-18</strong>
+                    <strong>12-18</strong>
                   </div>
 
                   <div class="d-flex align-items-center gap-2">
@@ -108,7 +129,11 @@
               </div>
 
               <!-- ACTIONS -->
-              <div class="d-flex gap-2 align-items-center">
+              <div
+                class="d-flex flex-wrap 
+                gap-2 align-items-center"
+              >
+
                 <!-- SHARE -->
                 <button class="btn-ui outline secondary btn-icon">
                   <span class="btn-icon-svg icon-export-email"></span>
@@ -121,15 +146,18 @@
 
                 <!-- VIEW -->
                 <button
-                  class="btn-ui secondary rounded-pill d-flex align-items-center justify-content-between gap-2 px-4 py-3"
+                  class="btn-ui secondary rounded-pill 
+                  d-flex align-items-center gap-2"
                 >
                   <span class="btn-icon-svg icon-eye bg-white"></span>
                   <span>Görüntüle</span>
                 </button>
               </div>
+
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </div>

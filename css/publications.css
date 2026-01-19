@@ -2,13 +2,13 @@
   background: #fff;
 }
 
-/* BORDER */
+/* ================= BORDER ================= */
 
 #pubCarousel .border {
   border-color: #e9f4f8;
 }
 
-/* CARD */
+/* ================= CARD ================= */
 
 .mag-card {
   background: #fff;
@@ -20,7 +20,7 @@
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
 }
 
-/* BADGE */
+/* ================= BADGE =================*/
 
 .badge-info {
   background: #f6f8ff;
@@ -29,7 +29,7 @@
   color: var(--primary);
 }
 
-/* META */
+/* ================= META ================= */
 
 .publications-meta {
   display: flex;
@@ -37,36 +37,35 @@
   margin: 14px 0;
 }
 
-/*CAROUSEL TOP LEFT*/
-
-.publications-top-left {
-  width: 230px !important;
-}
-
-/* ICONS */
-
-
+/* ================= ICONS ================= */
 
 /* BADGE */
 
-.card-badge{
+.card-badge {
   font-size: 13px;
 }
-/*=================================*/
 
-.bg-btnlight{
-  background-color: #F5F7FF ;
+/* ================= BUTTONS =================*/
+
+.bg-btnlight {
+  background-color: #f5f7ff;
 }
 
-/* RESPONSIVE */
+/* ================= RESPONSIVE ================= */
 
 @media (max-width: 992px) {
+  .publications-header {
+    width: 100%;
+  }
   .publications-meta {
     gap: 10px;
   }
 }
 
 @media (max-width: 768px) {
+  .publications-header {
+    width: 100%;
+  }
   .mag-card {
     padding: 20px;
   }

@@ -3,8 +3,6 @@ function loadSection(id, file, callback) {
     .then(res => res.text())
     .then(html => {
       document.getElementById(id).innerHTML = html;
-
-      // Eğer callback varsa çalıştır
       if (callback) callback();
     });
 }
@@ -30,6 +28,36 @@ function initSearch() {
   });
 }
 
+/* =================
+   OWL INIT
+================= */
+
+function initPublicationsSlider(){
+
+  const slider = $("#pubSlider").owlCarousel({
+    loop:true,
+    margin:20,
+    nav:false,
+    dots:false,
+
+    autoplay:false,
+
+    responsive:{
+      0:{ items:1 },
+      768:{ items:2 },
+      1200:{ items:3 }
+    }
+  });
+
+  $("#prevPub").click(function(){
+    slider.trigger("prev.owl.carousel");
+  });
+
+  $("#nextPub").click(function(){
+    slider.trigger("next.owl.carousel");
+  });
+}
+
 
 /* =================
    LOAD PARTIALS
@@ -38,7 +66,7 @@ function initSearch() {
 loadSection("header", "partials/header.html", initSearch);
 loadSection("hero", "partials/hero.html");
 loadSection("about", "partials/about.html");
-loadSection("publications", "partials/publications.html");
+loadSection("publications", "partials/publications.html", initPublicationsSlider);
 loadSection("cta", "partials/cta.html");
 loadSection("latest-articles", "partials/latest-articles.html");
 loadSection("footer", "partials/footer.html");

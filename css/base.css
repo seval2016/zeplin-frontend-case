@@ -1,6 +1,4 @@
-/* ================================
-   ROOT TOKENS
-================================ */
+/* ================= ROOT TOKENS  ================= */
 
 :root {
   /* Colors */
@@ -30,18 +28,14 @@
   --font-family: "Inter", sans-serif;
 }
 
-/* ================================
-   GLOBAL
-================================ */
+/* ================= GLOBAL ================= */
 
 body {
   font-family: var(--font-family);
   color: var(--dark);
 }
 
-/* ================================
-   TYPOGRAPHY (H)
-================================ */
+/* ================= TYPOGRAPHY (H) ================= */
 
 .h1,
 h1 {
@@ -85,9 +79,7 @@ h6 {
   font-weight: 500;
 }
 
-/* ================================
-   BUTTON BASE
-================================ */
+/* ================= BUTTON BASE ================= */
 
 .btn-ui {
   display: inline-flex;
@@ -104,9 +96,7 @@ h6 {
   text-decoration: none;
 }
 
-/* ================================
-   FILLED BUTTONS
-================================ */
+/* ================= FILLED BUTTONS ================= */
 
 .btn-ui.primary {
   background: var(--primary);
@@ -156,10 +146,8 @@ h6 {
   color: var(--dark);
 }
 
-/* ================================
-   OUTLINE
-================================ */
-
+/* =================  OUTLINE ================= */
+  
 .btn-ui.outline {
   background: transparent;
 }
@@ -195,9 +183,7 @@ h6 {
   border-color: var(--info);
 }
 
-/* ================================
-   STATES
-================================ */
+/* ================= STATES ================= */
 
 /* Hover */
 .btn-ui.primary:hover {
@@ -232,8 +218,6 @@ h6 {
   border-color: var(--primary);
   color: #fff;
 }
-
-
 
 .btn-ui.outline.secondary:hover {
   background: var(--secondary);
@@ -278,9 +262,7 @@ h6 {
   box-shadow: 0 0 0 3px rgba(8, 21, 66, 0.35);
 }
 
-/* ================================
-   SIZE
-================================ */
+/* ================= SIZE ================= */
 
 .btn-ui.sm {
   padding: 6px 12px;
@@ -294,9 +276,7 @@ h6 {
   font-size: 16px;
 }
 
-/* ================================
-   ICON BUTTON
-================================ */
+/* ================= ICON BUTTON ================= */
 
 .btn-icon {
   width: 40px;
@@ -306,9 +286,7 @@ h6 {
   justify-content: center;
 }
 
-/* ================================
-   TOGGLE GROUP
-================================ */
+/* ================= TOGGLE GROUP ================= */
 
 .btn-group-ui {
   display: flex;
@@ -326,9 +304,7 @@ h6 {
 }
 
 
-/* ================================
-   BADGE SYSTEM
-================================ */
+/* ================= BADGE SYSTEM ================= */
 
 .badge-ui{
   display:inline-flex;
@@ -383,11 +359,7 @@ h6 {
 .badge-ui:hover{
   opacity:.85;
 }
-
-
-/* ================================
-   TEXT COLORS
-================================ */
+/* ================= TEXT COLORS ================= */
 
 .text-ui-primary{
   color:var(--primary);
@@ -429,9 +401,7 @@ h6 {
   color:var(--pageGray);
 }
 
-/* ================================
-   WIDTH UTILITIES
-================================ */
+/* ================= WIDTH UTILITIES ================= */
 
 .w-ui-25 { width:25%; }
 .w-ui-50 { width:50%; }
@@ -446,10 +416,7 @@ h6 {
 .w-ui-lg { width:220px; }
 .w-ui-xl { width:280px; }
 
-
-/* ================================
-   HEIGHT UTILITIES
-================================ */
+/* ================= HEIGHT UTILITIES ================= */
 
 .h-ui-25 { height:25%; }
 .h-ui-50 { height:50%; }
@@ -464,10 +431,7 @@ h6 {
 .h-ui-lg { height:60px; }
 .h-ui-xl { height:80px; }
 
-
-/* ================================
-   BACKGROUND COLORS
-================================ */
+/* =================  BACKGROUND COLORS ================= */
 
 .bg-ui-primary{ background:var(--primary); }
 .bg-ui-secondary{ background:var(--secondary); }

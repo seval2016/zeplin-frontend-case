@@ -1,31 +1,24 @@
-<!-- ================= PUBLICATIONS ================= -->
 <section class="publications-section py-5">
   <div class="container">
-
     <!-- HEADER -->
-    <div class="d-flex align-items-center justify-content-between gap-3 mb-4 flex-wrap">
-
-      <div class="publications-top-left d-flex align-items-center justify-content-between">
+    <div
+      class="d-flex align-items-center justify-content-between gap-3 mb-4 flex-wrap"
+    >
+      <div
+        class="d-flex align-items-center justify-content-between gap-0 gap-lg-5 publications-header"
+      >
         <div>
           <span class="sub-title">Sayılar</span>
           <h5 class="section-title mb-1">Dergiler</h5>
         </div>
 
         <!-- ARROWS -->
+
         <div class="ms-md-2 d-flex gap-2">
-          <button
-            class="btn-ui light btn-icon rounded-4 "
-            data-bs-target="#pubCarousel"
-            data-bs-slide="prev"
-          >
+          <button id="prevPub" class="btn-ui light px-2">
             <span class="btn-icon-svg left-icon bg-ui-gray"></span>
           </button>
-
-          <button
-            class="btn-ui btn-icon rounded-4 bg-btnlight"
-            data-bs-target="#pubCarousel"
-            data-bs-slide="next"
-          >
+          <button id="nextPub" class="btn-ui light px-2 bg-btnlight">
             <span class="btn-icon-svg right-icon bg-ui-secondary"></span>
           </button>
         </div>
@@ -34,7 +27,7 @@
       <div class="publications-top-right">
         <a
           href="#"
-          class="btn-ui outline primary fw-normal d-flex align-items-center gap-2 rounded-pill py-3"
+          class="btn-ui outline primary fw-normal mt-3 d-flex align-items-center justify-content-between gap-2 rounded-pill"
         >
           <span>Tümünü Görüntüle</span>
           <span class="btn-icon-svg right-icon bg-ui-dark"></span>
@@ -42,466 +35,416 @@
       </div>
     </div>
 
-    <!-- CAROUSEL -->
-    <div id="pubCarousel" class="carousel slide" data-bs-ride="false">
+    <!-- OWL CAROUSEL -->
+    <div class="owl-carousel" id="pubSlider">
+      <!-- CARD 1 -->
+      <div class="mag-card p-3 rounded-4 border h-100">
+        <div class="row g-3 align-items-stretch">
+          <!-- IMAGE -->
+          <div class="col-6">
+            <img
+              src="assets/images/card_img.jpg"
+              class="img-fluid rounded-3 h-100 object-fit-cover"
+              alt=""
+            />
+          </div>
 
-      <div class="carousel-inner">
+          <!-- CONTENT -->
+          <div class="col-6 d-flex flex-column justify-content-between">
+            <div>
+              <div class="d-flex justify-content-between mb-2">
+                <div>
+                  <span class="btn-icon-svg icon-pdf bg-ui-pagegray"></span>
+                </div>
+                <div>
+                  <span class="badge badge-ui new rounded-pill">YENİ</span>
+                </div>
+              </div>
 
-        <!-- SLIDE 1 -->
-        <div class="carousel-item active">
-          <div class="row g-4">
+              <span class="badge badge-info card-badge fw-normal"> Dergi </span>
 
-            <!-- CARD 1 -->
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="mag-card p-3 rounded-4 border h-100">
-                <div class="row g-3 align-items-stretch">
-                  <!-- IMAGE -->
-                  <div class="col-6">
-                    <img
-                      src="assets/images/card_img.jpg"
-                      class="img-fluid rounded-3 h-100 object-fit-cover"
-                      alt=""
-                    />
-                  </div>
+              <h6 class="text-ui-primary fw-bold mb-2">
+                Teknoloji ve Dijital Dergisi
+              </h6>
 
-                  <!-- CONTENT -->
-                  <div class="col-6 d-flex flex-column justify-content-between">
-                    <div>
-                      <div class="d-flex justify-content-between mb-2">
-                        <div><span class="btn-icon-svg icon-pdf bg-ui-pagegray"></span></div>
-                        <div>
-                          <span class="badge badge-ui new rounded-pill"
-                            >YENİ</span
-                          >
-                        </div>
-                      </div>
+              <!-- META -->
+              <div class="publications-meta mb-4 d-flex flex-wrap">
+                <div class="d-flex align-items-center gap-2">
+                  <span class="btn-icon-svg icon-book bg-ui-dark"></span>
+                  <span class="text-dark fw-light">Cilt:</span>
+                  <strong class="text-black">1</strong>
+                </div>
 
-                      <span class="badge badge-info card-badge fw-normal">
-                        Dergi
-                      </span>
+                <div class="d-flex align-items-center gap-2">
+                  <span class="btn-icon-svg icon-file bg-ui-dark"></span>
+                  <span class="text-dark fw-light">Sayı:</span>
+                  <strong class="text-black">7</strong>
+                </div>
 
-                      <h6 class="text-ui-primary fw-bold mb-2">
-                        Teknoloji ve Dijital Dergisi
-                      </h6>
-
-                      <!-- META -->
-                      <div class="publications-meta mb-4 d-flex flex-wrap">
-                        <div class="d-flex align-items-center gap-2">
-                          <span class="btn-icon-svg icon-book bg-ui-dark"></span>
-                          <span class="text-dark fw-light">Cilt:</span>
-                          <strong class="text-black">2</strong>
-                        </div>
-
-                        <div class="d-flex align-items-center gap-2">
-                          <span class="btn-icon-svg icon-file bg-ui-dark"></span>
-                          <span class="text-dark fw-light">Sayı:</span>
-                          <strong class="text-black">7</strong>
-                        </div>
-
-                        <div class="d-flex align-items-center gap-2 w-100">
-                          <span class="btn-icon-svg icon-calendar bg-ui-dark"></span>
-                          <strong class="text-black">Haziran 2025</strong>
-                        </div>
-                      </div>
-                    </div>
-
-                    <!-- ACTIONS -->
-                    <div class="d-flex gap-2">
-                      <button class="btn-ui secondary btn-icon">
-                        <span class="btn-icon-svg icon-eye bg-white"></span>
-                      </button>
-
-                      <button class="btn-ui outline primary btn-icon">
-                        <span class="btn-icon-svg icon-download"></span>
-                      </button>
-
-                      <button class="btn-ui outline secondary btn-icon">
-                        <span class="btn-icon-svg right-icon bg-ui-dark"></span>
-                      </button>
-                    </div>
-                  </div>
+                <div class="d-flex align-items-center gap-2 w-100">
+                  <span class="btn-icon-svg icon-calendar bg-ui-dark"></span>
+                  <strong class="text-black">Haziran 2025</strong>
                 </div>
               </div>
             </div>
 
-            <!-- CARD 2 -->
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="mag-card p-3 rounded-4 border h-100">
-                <div class="row g-3 align-items-stretch">
-                  <!-- IMAGE -->
-                  <div class="col-6">
-                    <img
-                      src="assets/images/card_img.jpg"
-                      class="img-fluid rounded-3 h-100 object-fit-cover"
-                      alt=""
-                    />
-                  </div>
+            <!-- ACTIONS -->
+            <div class="d-flex gap-2">
+              <button class="btn-ui secondary btn-icon">
+                <span class="btn-icon-svg icon-eye bg-white"></span>
+              </button>
 
-                  <!-- CONTENT -->
-                  <div class="col-6 d-flex flex-column justify-content-between">
-                    <div>
-                      <div class="d-flex justify-content-between mb-2">
-                        <div><span class="btn-icon-svg icon-pdf bg-ui-pagegray"></span></div>
-                        <div>
-                          <span class="badge badge-ui new rounded-pill"
-                            >YENİ</span
-                          >
-                        </div>
-                      </div>
+              <button class="btn-ui outline primary btn-icon">
+                <span class="btn-icon-svg icon-download"></span>
+              </button>
 
-                      <span class="badge badge-info card-badge fw-normal">
-                        Dergi
-                      </span>
-
-                      <h6 class="text-ui-primary fw-bold mb-2">
-                        Teknoloji ve Dijital Dergisi
-                      </h6>
-
-                      <!-- META -->
-                      <div class="publications-meta mb-4 d-flex flex-wrap">
-                        <div class="d-flex align-items-center gap-2">
-                          <span class="btn-icon-svg icon-book bg-ui-dark"></span>
-                          <span class="text-dark fw-light">Cilt:</span>
-                          <strong class="text-black">2</strong>
-                        </div>
-
-                        <div class="d-flex align-items-center gap-2">
-                          <span class="btn-icon-svg icon-file bg-ui-dark"></span>
-                          <span class="text-dark fw-light">Sayı:</span>
-                          <strong class="text-black">7</strong>
-                        </div>
-
-                        <div class="d-flex align-items-center gap-2 w-100">
-                          <span class="btn-icon-svg icon-calendar bg-ui-dark"></span>
-                          <strong class="text-black">Haziran 2025</strong>
-                        </div>
-                      </div>
-                    </div>
-
-                    <!-- ACTIONS -->
-                    <div class="d-flex gap-2">
-                      <button class="btn-ui secondary btn-icon">
-                        <span class="btn-icon-svg icon-eye bg-white"></span>
-                      </button>
-
-                      <button class="btn-ui outline primary btn-icon">
-                        <span class="btn-icon-svg icon-download"></span>
-                      </button>
-
-                      <button class="btn-ui outline secondary btn-icon">
-                        <span class="btn-icon-svg right-icon bg-ui-dark"></span>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <button class="btn-ui outline secondary btn-icon">
+                <span class="btn-icon-svg right-icon bg-ui-dark"></span>
+              </button>
             </div>
-
-            <!-- CARD 3 -->
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="mag-card p-3 rounded-4 border h-100">
-                <div class="row g-3 align-items-stretch">
-                  <!-- IMAGE -->
-                  <div class="col-6">
-                    <img
-                      src="assets/images/card_img.jpg"
-                      class="img-fluid rounded-3 h-100 object-fit-cover"
-                      alt=""
-                    />
-                  </div>
-
-                  <!-- CONTENT -->
-                  <div class="col-6 d-flex flex-column justify-content-between">
-                    <div>
-                      <div class="d-flex justify-content-between mb-2">
-                        <div><span class="btn-icon-svg icon-pdf bg-ui-pagegray"></span></div>
-                        <div>
-                          <span class="badge badge-ui new rounded-pill"
-                            >YENİ</span
-                          >
-                        </div>
-                      </div>
-
-                      <span class="badge badge-info card-badge fw-normal">
-                        Dergi
-                      </span>
-
-                      <h6 class="text-ui-primary fw-bold mb-2">
-                        Teknoloji ve Dijital Dergisi
-                      </h6>
-
-                      <!-- META -->
-                      <div class="publications-meta mb-4 d-flex flex-wrap">
-                        <div class="d-flex align-items-center gap-2">
-                          <span class="btn-icon-svg icon-book bg-ui-dark"></span>
-                          <span class="text-dark fw-light">Cilt:</span>
-                          <strong class="text-black">2</strong>
-                        </div>
-
-                        <div class="d-flex align-items-center gap-2">
-                          <span class="btn-icon-svg icon-file bg-ui-dark"></span>
-                          <span class="text-dark fw-light">Sayı:</span>
-                          <strong class="text-black">7</strong>
-                        </div>
-
-                        <div class="d-flex align-items-center gap-2 w-100">
-                          <span class="btn-icon-svg icon-calendar bg-ui-dark"></span>
-                          <strong class="text-black">Haziran 2025</strong>
-                        </div>
-                      </div>
-                    </div>
-
-                    <!-- ACTIONS -->
-                    <div class="d-flex gap-2">
-                      <button class="btn-ui secondary btn-icon">
-                        <span class="btn-icon-svg icon-eye bg-white"></span>
-                      </button>
-
-                      <button class="btn-ui outline primary btn-icon">
-                        <span class="btn-icon-svg icon-download"></span>
-                      </button>
-
-                      <button class="btn-ui outline secondary btn-icon">
-                        <span class="btn-icon-svg right-icon bg-ui-dark"></span>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
           </div>
         </div>
+      </div>
+      <!-- CARD 2 -->
+      <div class="mag-card p-3 rounded-4 border h-100">
+        <div class="row g-3 align-items-stretch">
+          <!-- IMAGE -->
+          <div class="col-6">
+            <img
+              src="assets/images/card_img.jpg"
+              class="img-fluid rounded-3 h-100 object-fit-cover"
+              alt=""
+            />
+          </div>
 
-        <!-- SLIDE 2 -->
-        <div class="carousel-item">
-          <div class="row g-4">
+          <!-- CONTENT -->
+          <div class="col-6 d-flex flex-column justify-content-between">
+            <div>
+              <div class="d-flex justify-content-between mb-2">
+                <div>
+                  <span class="btn-icon-svg icon-pdf bg-ui-pagegray"></span>
+                </div>
+                <div>
+                  <span class="badge badge-ui new rounded-pill">YENİ</span>
+                </div>
+              </div>
 
-            <!-- 3 kart daha (aynı yapı) -->
+              <span class="badge badge-info card-badge fw-normal"> Dergi </span>
 
-            <!-- CARD 4 -->
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="mag-card p-3 rounded-4 border h-100">
-                <div class="row g-3 align-items-stretch">
-                  <!-- IMAGE -->
-                  <div class="col-6">
-                    <img
-                      src="assets/images/card_img.jpg"
-                      class="img-fluid rounded-3 h-100 object-fit-cover"
-                      alt=""
-                    />
-                  </div>
+              <h6 class="text-ui-primary fw-bold mb-2">
+                Teknoloji ve Dijital Dergisi
+              </h6>
 
-                  <!-- CONTENT -->
-                  <div class="col-6 d-flex flex-column justify-content-between">
-                    <div>
-                      <div class="d-flex justify-content-between mb-2">
-                        <div><span class="btn-icon-svg icon-pdf bg-ui-pagegray"></span></div>
-                        <div>
-                          <span class="badge badge-ui new rounded-pill"
-                            >YENİ</span
-                          >
-                        </div>
-                      </div>
+              <!-- META -->
+              <div class="publications-meta mb-4 d-flex flex-wrap">
+                <div class="d-flex align-items-center gap-2">
+                  <span class="btn-icon-svg icon-book bg-ui-dark"></span>
+                  <span class="text-dark fw-light">Cilt:</span>
+                  <strong class="text-black">2</strong>
+                </div>
 
-                      <span class="badge badge-info card-badge fw-normal">
-                        Dergi
-                      </span>
+                <div class="d-flex align-items-center gap-2">
+                  <span class="btn-icon-svg icon-file bg-ui-dark"></span>
+                  <span class="text-dark fw-light">Sayı:</span>
+                  <strong class="text-black">7</strong>
+                </div>
 
-                      <h6 class="text-ui-primary fw-bold mb-2">
-                        Teknoloji ve Dijital Dergisi
-                      </h6>
-
-                      <!-- META -->
-                      <div class="publications-meta mb-4 d-flex flex-wrap">
-                        <div class="d-flex align-items-center gap-2">
-                          <span class="btn-icon-svg icon-book bg-ui-dark"></span>
-                          <span class="text-dark fw-light">Cilt:</span>
-                          <strong class="text-black">2</strong>
-                        </div>
-
-                        <div class="d-flex align-items-center gap-2">
-                          <span class="btn-icon-svg icon-file bg-ui-dark"></span>
-                          <span class="text-dark fw-light">Sayı:</span>
-                          <strong class="text-black">7</strong>
-                        </div>
-
-                        <div class="d-flex align-items-center gap-2 w-100">
-                          <span class="btn-icon-svg icon-calendar bg-ui-dark"></span>
-                          <strong class="text-black">Haziran 2025</strong>
-                        </div>
-                      </div>
-                    </div>
-
-                    <!-- ACTIONS -->
-                    <div class="d-flex gap-2">
-                      <button class="btn-ui secondary btn-icon">
-                        <span class="btn-icon-svg icon-eye bg-white"></span>
-                      </button>
-
-                      <button class="btn-ui outline primary btn-icon">
-                        <span class="btn-icon-svg icon-download"></span>
-                      </button>
-
-                      <button class="btn-ui outline secondary btn-icon">
-                        <span class="btn-icon-svg right-icon bg-ui-dark"></span>
-                      </button>
-                    </div>
-                  </div>
+                <div class="d-flex align-items-center gap-2 w-100">
+                  <span class="btn-icon-svg icon-calendar bg-ui-dark"></span>
+                  <strong class="text-black">Haziran 2025</strong>
                 </div>
               </div>
             </div>
 
-            <!-- CARD 5 -->
-             <div class="col-12 col-md-6 col-lg-4">
-              <div class="mag-card p-3 rounded-4 border h-100">
-                <div class="row g-3 align-items-stretch">
-                  <!-- IMAGE -->
-                  <div class="col-6">
-                    <img
-                      src="assets/images/card_img.jpg"
-                      class="img-fluid rounded-3 h-100 object-fit-cover"
-                      alt=""
-                    />
-                  </div>
+            <!-- ACTIONS -->
+            <div class="d-flex gap-2">
+              <button class="btn-ui secondary btn-icon">
+                <span class="btn-icon-svg icon-eye bg-white"></span>
+              </button>
 
-                  <!-- CONTENT -->
-                  <div class="col-6 d-flex flex-column justify-content-between">
-                    <div>
-                      <div class="d-flex justify-content-between mb-2">
-                        <div><span class="btn-icon-svg icon-pdf bg-ui-pagegray"></span></div>
-                        <div>
-                          <span class="badge badge-ui new rounded-pill"
-                            >YENİ</span
-                          >
-                        </div>
-                      </div>
+              <button class="btn-ui outline primary btn-icon">
+                <span class="btn-icon-svg icon-download"></span>
+              </button>
 
-                      <span class="badge badge-info card-badge fw-normal">
-                        Dergi
-                      </span>
-
-                      <h6 class="text-ui-primary fw-bold mb-2">
-                        Teknoloji ve Dijital Dergisi
-                      </h6>
-
-                      <!-- META -->
-                      <div class="publications-meta mb-4 d-flex flex-wrap">
-                        <div class="d-flex align-items-center gap-2">
-                          <span class="btn-icon-svg icon-book bg-ui-dark"></span>
-                          <span class="text-dark fw-light">Cilt:</span>
-                          <strong class="text-black">2</strong>
-                        </div>
-
-                        <div class="d-flex align-items-center gap-2">
-                          <span class="btn-icon-svg icon-file bg-ui-dark"></span>
-                          <span class="text-dark fw-light">Sayı:</span>
-                          <strong class="text-black">7</strong>
-                        </div>
-
-                        <div class="d-flex align-items-center gap-2 w-100">
-                          <span class="btn-icon-svg icon-calendar bg-ui-dark"></span>
-                          <strong class="text-black">Haziran 2025</strong>
-                        </div>
-                      </div>
-                    </div>
-
-                    <!-- ACTIONS -->
-                    <div class="d-flex gap-2">
-                      <button class="btn-ui secondary btn-icon">
-                        <span class="btn-icon-svg icon-eye bg-white"></span>
-                      </button>
-
-                      <button class="btn-ui outline primary btn-icon">
-                        <span class="btn-icon-svg icon-download"></span>
-                      </button>
-
-                      <button class="btn-ui outline secondary btn-icon">
-                        <span class="btn-icon-svg right-icon bg-ui-dark"></span>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <button class="btn-ui outline secondary btn-icon">
+                <span class="btn-icon-svg right-icon bg-ui-dark"></span>
+              </button>
             </div>
-            <!-- CARD 6 -->
-             <div class="col-12 col-md-6 col-lg-4">
-              <div class="mag-card p-3 rounded-4 border h-100">
-                <div class="row g-3 align-items-stretch">
-                  <!-- IMAGE -->
-                  <div class="col-6">
-                    <img
-                      src="assets/images/card_img.jpg"
-                      class="img-fluid rounded-3 h-100 object-fit-cover"
-                      alt=""
-                    />
-                  </div>
-
-                  <!-- CONTENT -->
-                  <div class="col-6 d-flex flex-column justify-content-between">
-                    <div>
-                      <div class="d-flex justify-content-between mb-2">
-                        <div><span class="btn-icon-svg icon-pdf bg-ui-pagegray"></span></div>
-                        <div>
-                          <span class="badge badge-ui new rounded-pill"
-                            >YENİ</span
-                          >
-                        </div>
-                      </div>
-
-                      <span class="badge badge-info card-badge fw-normal">
-                        Dergi
-                      </span>
-
-                      <h6 class="text-ui-primary fw-bold mb-2">
-                        Teknoloji ve Dijital Dergisi
-                      </h6>
-
-                      <!-- META -->
-                      <div class="publications-meta mb-4 d-flex flex-wrap">
-                        <div class="d-flex align-items-center gap-2">
-                          <span class="btn-icon-svg icon-book bg-ui-dark"></span>
-                          <span class="text-dark fw-light">Cilt:</span>
-                          <strong class="text-black">2</strong>
-                        </div>
-
-                        <div class="d-flex align-items-center gap-2">
-                          <span class="btn-icon-svg icon-file bg-ui-dark"></span>
-                          <span class="text-dark fw-light">Sayı:</span>
-                          <strong class="text-black">7</strong>
-                        </div>
-
-                        <div class="d-flex align-items-center gap-2 w-100">
-                          <span class="btn-icon-svg icon-calendar bg-ui-dark"></span>
-                          <strong class="text-black">Haziran 2025</strong>
-                        </div>
-                      </div>
-                    </div>
-
-                    <!-- ACTIONS -->
-                    <div class="d-flex gap-2">
-                      <button class="btn-ui secondary btn-icon">
-                        <span class="btn-icon-svg icon-eye bg-white"></span>
-                      </button>
-
-                      <button class="btn-ui outline primary btn-icon">
-                        <span class="btn-icon-svg icon-download"></span>
-                      </button>
-
-                      <button class="btn-ui outline secondary btn-icon">
-                        <span class="btn-icon-svg right-icon bg-ui-dark"></span>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
           </div>
         </div>
+      </div>
+      <!-- CARD 3 -->
+      <div class="mag-card p-3 rounded-4 border h-100">
+        <div class="row g-3 align-items-stretch">
+          <!-- IMAGE -->
+          <div class="col-6">
+            <img
+              src="assets/images/card_img.jpg"
+              class="img-fluid rounded-3 h-100 object-fit-cover"
+              alt=""
+            />
+          </div>
 
+          <!-- CONTENT -->
+          <div class="col-6 d-flex flex-column justify-content-between">
+            <div>
+              <div class="d-flex justify-content-between mb-2">
+                <div>
+                  <span class="btn-icon-svg icon-pdf bg-ui-pagegray"></span>
+                </div>
+                <div>
+                  <span class="badge badge-ui new rounded-pill">YENİ</span>
+                </div>
+              </div>
+
+              <span class="badge badge-info card-badge fw-normal"> Dergi </span>
+
+              <h6 class="text-ui-primary fw-bold mb-2">
+                Teknoloji ve Dijital Dergisi
+              </h6>
+
+              <!-- META -->
+              <div class="publications-meta mb-4 d-flex flex-wrap">
+                <div class="d-flex align-items-center gap-2">
+                  <span class="btn-icon-svg icon-book bg-ui-dark"></span>
+                  <span class="text-dark fw-light">Cilt:</span>
+                  <strong class="text-black">3</strong>
+                </div>
+
+                <div class="d-flex align-items-center gap-2">
+                  <span class="btn-icon-svg icon-file bg-ui-dark"></span>
+                  <span class="text-dark fw-light">Sayı:</span>
+                  <strong class="text-black">7</strong>
+                </div>
+
+                <div class="d-flex align-items-center gap-2 w-100">
+                  <span class="btn-icon-svg icon-calendar bg-ui-dark"></span>
+                  <strong class="text-black">Haziran 2025</strong>
+                </div>
+              </div>
+            </div>
+
+            <!-- ACTIONS -->
+            <div class="d-flex gap-2">
+              <button class="btn-ui secondary btn-icon">
+                <span class="btn-icon-svg icon-eye bg-white"></span>
+              </button>
+
+              <button class="btn-ui outline primary btn-icon">
+                <span class="btn-icon-svg icon-download"></span>
+              </button>
+
+              <button class="btn-ui outline secondary btn-icon">
+                <span class="btn-icon-svg right-icon bg-ui-dark"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CARD 4 -->
+      <div class="mag-card p-3 rounded-4 border h-100">
+        <div class="row g-3 align-items-stretch">
+          <!-- IMAGE -->
+          <div class="col-6">
+            <img
+              src="assets/images/card_img.jpg"
+              class="img-fluid rounded-3 h-100 object-fit-cover"
+              alt=""
+            />
+          </div>
+
+          <!-- CONTENT -->
+          <div class="col-6 d-flex flex-column justify-content-between">
+            <div>
+              <div class="d-flex justify-content-between mb-2">
+                <div>
+                  <span class="btn-icon-svg icon-pdf bg-ui-pagegray"></span>
+                </div>
+                <div>
+                  <span class="badge badge-ui new rounded-pill">YENİ</span>
+                </div>
+              </div>
+
+              <span class="badge badge-info card-badge fw-normal"> Dergi </span>
+
+              <h6 class="text-ui-primary fw-bold mb-2">
+                Teknoloji ve Dijital Dergisi
+              </h6>
+
+              <!-- META -->
+              <div class="publications-meta mb-4 d-flex flex-wrap">
+                <div class="d-flex align-items-center gap-2">
+                  <span class="btn-icon-svg icon-book bg-ui-dark"></span>
+                  <span class="text-dark fw-light">Cilt:</span>
+                  <strong class="text-black">4</strong>
+                </div>
+
+                <div class="d-flex align-items-center gap-2">
+                  <span class="btn-icon-svg icon-file bg-ui-dark"></span>
+                  <span class="text-dark fw-light">Sayı:</span>
+                  <strong class="text-black">7</strong>
+                </div>
+
+                <div class="d-flex align-items-center gap-2 w-100">
+                  <span class="btn-icon-svg icon-calendar bg-ui-dark"></span>
+                  <strong class="text-black">Haziran 2025</strong>
+                </div>
+              </div>
+            </div>
+
+            <!-- ACTIONS -->
+            <div class="d-flex gap-2">
+              <button class="btn-ui secondary btn-icon">
+                <span class="btn-icon-svg icon-eye bg-white"></span>
+              </button>
+
+              <button class="btn-ui outline primary btn-icon">
+                <span class="btn-icon-svg icon-download"></span>
+              </button>
+
+              <button class="btn-ui outline secondary btn-icon">
+                <span class="btn-icon-svg right-icon bg-ui-dark"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CARD 5 -->
+      <div class="mag-card p-3 rounded-4 border h-100">
+        <div class="row g-3 align-items-stretch">
+          <!-- IMAGE -->
+          <div class="col-6">
+            <img
+              src="assets/images/card_img.jpg"
+              class="img-fluid rounded-3 h-100 object-fit-cover"
+              alt=""
+            />
+          </div>
+
+          <!-- CONTENT -->
+          <div class="col-6 d-flex flex-column justify-content-between">
+            <div>
+              <div class="d-flex justify-content-between mb-2">
+                <div>
+                  <span class="btn-icon-svg icon-pdf bg-ui-pagegray"></span>
+                </div>
+                <div>
+                  <span class="badge badge-ui new rounded-pill">YENİ</span>
+                </div>
+              </div>
+
+              <span class="badge badge-info card-badge fw-normal"> Dergi </span>
+
+              <h6 class="text-ui-primary fw-bold mb-2">
+                Teknoloji ve Dijital Dergisi
+              </h6>
+
+              <!-- META -->
+              <div class="publications-meta mb-4 d-flex flex-wrap">
+                <div class="d-flex align-items-center gap-2">
+                  <span class="btn-icon-svg icon-book bg-ui-dark"></span>
+                  <span class="text-dark fw-light">Cilt:</span>
+                  <strong class="text-black">5</strong>
+                </div>
+
+                <div class="d-flex align-items-center gap-2">
+                  <span class="btn-icon-svg icon-file bg-ui-dark"></span>
+                  <span class="text-dark fw-light">Sayı:</span>
+                  <strong class="text-black">7</strong>
+                </div>
+
+                <div class="d-flex align-items-center gap-2 w-100">
+                  <span class="btn-icon-svg icon-calendar bg-ui-dark"></span>
+                  <strong class="text-black">Haziran 2025</strong>
+                </div>
+              </div>
+            </div>
+
+            <!-- ACTIONS -->
+            <div class="d-flex gap-2">
+              <button class="btn-ui secondary btn-icon">
+                <span class="btn-icon-svg icon-eye bg-white"></span>
+              </button>
+
+              <button class="btn-ui outline primary btn-icon">
+                <span class="btn-icon-svg icon-download"></span>
+              </button>
+
+              <button class="btn-ui outline secondary btn-icon">
+                <span class="btn-icon-svg right-icon bg-ui-dark"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CARD 6-->
+      <div class="mag-card p-3 rounded-4 border h-100">
+        <div class="row g-3 align-items-stretch">
+          <!-- IMAGE -->
+          <div class="col-6">
+            <img
+              src="assets/images/card_img.jpg"
+              class="img-fluid rounded-3 h-100 object-fit-cover"
+              alt=""
+            />
+          </div>
+
+          <!-- CONTENT -->
+          <div class="col-6 d-flex flex-column justify-content-between">
+            <div>
+              <div class="d-flex justify-content-between mb-2">
+                <div>
+                  <span class="btn-icon-svg icon-pdf bg-ui-pagegray"></span>
+                </div>
+                <div>
+                  <span class="badge badge-ui new rounded-pill">YENİ</span>
+                </div>
+              </div>
+
+              <span class="badge badge-info card-badge fw-normal"> Dergi </span>
+
+              <h6 class="text-ui-primary fw-bold mb-2">
+                Teknoloji ve Dijital Dergisi
+              </h6>
+
+              <!-- META -->
+              <div class="publications-meta mb-4 d-flex flex-wrap">
+                <div class="d-flex align-items-center gap-2">
+                  <span class="btn-icon-svg icon-book bg-ui-dark"></span>
+                  <span class="text-dark fw-light">Cilt:</span>
+                  <strong class="text-black">6</strong>
+                </div>
+
+                <div class="d-flex align-items-center gap-2">
+                  <span class="btn-icon-svg icon-file bg-ui-dark"></span>
+                  <span class="text-dark fw-light">Sayı:</span>
+                  <strong class="text-black">7</strong>
+                </div>
+
+                <div class="d-flex align-items-center gap-2 w-100">
+                  <span class="btn-icon-svg icon-calendar bg-ui-dark"></span>
+                  <strong class="text-black">Haziran 2025</strong>
+                </div>
+              </div>
+            </div>
+
+            <!-- ACTIONS -->
+            <div class="d-flex gap-2">
+              <button class="btn-ui secondary btn-icon">
+                <span class="btn-icon-svg icon-eye bg-white"></span>
+              </button>
+
+              <button class="btn-ui outline primary btn-icon">
+                <span class="btn-icon-svg icon-download"></span>
+              </button>
+
+              <button class="btn-ui outline secondary btn-icon">
+                <span class="btn-icon-svg right-icon bg-ui-dark"></span>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-
   </div>
 </section>

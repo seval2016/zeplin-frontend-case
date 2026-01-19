@@ -76,26 +76,56 @@
   max-width: 300px;
 }
 
-/* ================= RESPONSIVE ================= */
-
-@media (max-width: 768px) {
-
+/* ================= MOBILE ================= */
+@media (max-width: 992px) {
   .cta-section {
     margin-top: 30px;
   }
 
+  .cta-left {
+    max-width: 350px;
+  }
+
+  .cta-wrapper {
+    border-radius: 0;
+    padding: 30px 15px;
+  }
+
+  /* SIRALAMA */
+  .cta-wrapper .col-lg-3:first-child {
+    order: 1;
+  }
+
+  .cta-wrapper .col-lg-6 {
+    order: 2;
+  }
+
+  .cta-wrapper .col-lg-3:last-child {
+    order: 3;
+  }
+
+  /* SOL RESİM */
+  .cta-left-mobile {
+    display: block;
+    max-width: 220px;
+    margin-bottom: 20px;
+  }
+
+  /* SAĞ RESİM */
   .cta-wrapper .col-lg-3:last-child img {
     position: relative;
     bottom: 0;
-    top: 0;
     right: 0;
-    max-width: 100%;
-  }
-  .cta-wrapper {
-    border-radius: 0;
+    max-width: 275px;
+    margin-top: 20px;
   }
 
-  .cta-left {
-    content: url("../assets/images/cta_left.png");
+  /* YAZILAR */
+  .cta-desc {
+    padding: 0 10px;
+  }
+
+  .cta-title {
+    font-size: 20px;
   }
 }

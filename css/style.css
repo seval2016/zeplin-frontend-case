@@ -1,8 +1,3 @@
-/* =====================================================
-   Z E P L I N   C R E A T I V E
-   Front-End Case - Main Style File
-   Tech: HTML, CSS, JS, Bootstrap 5
-===================================================== */
 
 /*  ========= IMPORTS ========= */
 
@@ -47,9 +42,7 @@
   justify-content: center;
 }
 
-/* =====================================================
-   GLOBAL TITLE
-===================================================== */
+/* ========= GLOBAL TITLE ========= */
 
 .sub-title {
   color: var(--pageGray);
@@ -120,8 +113,8 @@ a:hover {
 }
 
 .btn-icon-svg {
-  width: 16px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
   display: inline-block;
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
@@ -214,36 +207,14 @@ a:hover {
   mask-image: url("../assets/icons/email.svg");
 }
 
-/* =====================================================
-   ACCESSIBILITY
-===================================================== */
+/* ========= ACCESSIBILITY ========= */
 
 :focus-visible {
   outline: 2px solid var(--primary);
   outline-offset: 2px;
 }
 
-/* =====================================================
-   ANIMATIONS (Optional)
-===================================================== */
-
-.fade-in {
-  animation: fadeIn 0.4s ease-in-out;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(8px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-/* ===============================
-   MOBILE CARD TYPOGRAPHY
-================================ */
+/* ========= MOBILE CARD TYPOGRAPHY ========= */
 
 @media (max-width: 576px) {
   /* Card title */

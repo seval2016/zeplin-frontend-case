@@ -29,21 +29,14 @@
 
 /* SOL */
 
-.hero-content {
-  max-width: 700px;
-}
-
 .hero-title {
   margin: 8px 0 12px;
 }
 
-.hero-lead {
-  width: 400px;
-  font-size: var(--font-lg);
-  
+.hero-desc {
+  width: 350px;
 }
-
-.hero-btn{
+.hero-btn {
   width: 200px;
   font-size: var(--font-md);
 }
@@ -54,7 +47,6 @@
   font-size: var(--font-md);
 }
 
-
 /* SAĞ IMAGE */
 
 .hero-image-wrap {
@@ -64,21 +56,21 @@
 
 .hero-image {
   position: absolute;
-  top:50px;
+  top: 50px;
   left: 0;
 }
 
 /* ================= RESPONSIVE ================= */
 
 @media (max-width: 992px) {
-
   .hero-section {
     min-height: auto;
     padding: 60px 0;
   }
-
+  .hero-desc {
+    width:100%;
+  }
   .hero-content {
-    text-align: center;
     margin: 0 auto 40px;
   }
 
@@ -88,7 +80,7 @@
 
   .hero-image {
     position: static;
-    width: 240px;
+    width: 250px;
     display: block;
     margin: 0 auto;
   }
