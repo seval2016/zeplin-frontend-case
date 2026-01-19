@@ -98,17 +98,6 @@
   gap: 10px;
 }
 
-/* Search icon */
-
-.btn-search {
-  border-color: var(--gray) !important;
-}
-.icon-search {
-  background-color: var(--dark);
-}
-
-/* Hover icon white */
-
 .btn-ui.outline:hover .btn-icon-svg {
   background: #fff;
 }

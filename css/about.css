@@ -13,7 +13,7 @@
 }
 
 .detail-right-icon{
-  background-color: var(--dark);
+  /*background-color: var(--dark);*/
   mask: url("../assets/icons/right.svg") no-repeat center / contain;
 }
 

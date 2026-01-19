@@ -112,7 +112,6 @@ a:hover {
 .btn-small {
   width: 20px;
   height: 20px;
-  background-color: red;
   padding: 0;
   border-radius: 50%;
   display: flex;
@@ -121,8 +120,8 @@ a:hover {
 }
 
 .btn-icon-svg {
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   display: inline-block;
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
@@ -188,6 +187,8 @@ a:hover {
   mask-image: url("../assets/icons/download.svg");
 }
 .icon-pdf {
+  width: 22px;
+  height: 22px;
   mask-image: url("../assets/icons/pdf.svg");
 }
 

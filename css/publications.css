@@ -45,21 +45,7 @@
 
 /* ICONS */
 
-.pdf-icon {
-  width: 30px !important;
-  height: 30px !important;
-  background-color: var(--pageGray);}
 
-.icon-book ,.icon-file ,.icon-calendar,.left-icon  {
-  background-color: var(--dark);
-}
-.right-icon{
-  background-color: var(--secondary);
-}
-
-.left-icon  {
-  background-color: var(--gray);
-}
 
 /* BADGE */
 

@@ -27,12 +27,6 @@
   background-color: var(--dark);
 }
 
-.icon-pdf {
-  width: 22px !important;
-  height: 22px !important;
-  background-color: var(--pageGray);
-}
-
 /* SMALL ICON BUTTON CIRCLE */
 
 .icon-circle {
