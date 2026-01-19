@@ -11,5 +11,5 @@ loadSection("hero", "partials/hero.html");
 loadSection("about", "partials/about.html");
 loadSection("publications", "partials/publications.html");
 loadSection("cta", "partials/cta.html");
-loadSection("latest-issues", "partials/latest-issues.html");
+loadSection("latest-articles", "partials/latest-articles.html");
 loadSection("footer", "partials/footer.html");

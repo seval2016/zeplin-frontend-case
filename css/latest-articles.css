@@ -1,0 +1,70 @@
+
+
+/**/
+
+.card-item{
+  border: 2px solid #dfe3f1;
+        border-radius: 20px;
+}
+
+/* ICON BUTTON */
+.btn-vertical-text {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg); /* aşağıdan yukarı okutmak için */
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 12px 5px;
+  font-size: var(--font-sm);
+  letter-spacing: 1px;
+}
+
+.icon-export-email {
+  background-color: var(--dark);
+  mask-image: url("../assets/icons/export-email.svg");
+}
+
+.icon-author{
+  mask-image: url("../assets/icons/author.svg");
+}
+
+.icon-stickyNotes{
+  mask-image: url("../assets/icons/stickyNotes.svg");
+}
+.icon-download{
+  background-color: var(--dark);
+  mask-image: url("../assets/icons/download.svg");
+}
+.icon-pdf{
+  width: 22px;
+  height: 22px;
+  background-color: var(--pageGray);
+  mask-image: url("../assets/icons/pdf.svg");
+}
+
+
+/* SMALL ICON BUTTON CIRCLE */
+
+.icon-circle {
+  width: 32px;
+  height: 32px;
+
+  background: #f0f0f3;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+}
+
+/* ICON SIZE */
+
+.icon-circle .card-icon-svg {
+  width: 14px;
+  height: 14px;
+}
+

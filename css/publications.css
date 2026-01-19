@@ -40,8 +40,8 @@
 /* ICON BASE */
 
 .card-icon-svg {
-  width: 16px;
-  height: 16px;
+  width: 1px;
+  height: 14px;
   display: inline-block;
   background-color: var(--dark);
   -webkit-mask-repeat: no-repeat;
@@ -101,13 +101,6 @@
 .icon-eye {
   -webkit-mask-image: url("../assets/icons/eye.svg");
   mask-image: url("../assets/icons/eye.svg");
-}
-
-/* BUTTON SIZE */
-
-.action-icons{
-    width: 40px;
-    height: 40px;
 }
 
 /* RESPONSIVE */
