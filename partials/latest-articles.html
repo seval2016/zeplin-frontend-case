@@ -21,12 +21,15 @@
 
           <!-- ACTIONS -->
           <div class="d-flex justify-content-center gap-2">
-            <button class="btn btn-outline-light btn-circle">
+            
+            <!-- DOWNLOAD -->
+            <button class="btn-ui outline primary btn-icon">
               <span class="btn-icon-svg icon-download"></span>
             </button>
 
+            <!-- VIEW -->
             <button
-              class="btn btn-secondary rounded-pill px-4 d-flex align-items-center justify-content-between gap-2"
+              class="btn-ui secondary rounded-pill px-4 d-flex align-items-center justify-content-between gap-2"
             >
               <span class="btn-icon-svg icon-eye bg-white"></span>
               <span>Görüntüle</span>
@@ -48,30 +51,31 @@
             <h6 class="fw-bold mb-0 text-danger">Güncel Yazılar</h6>
           </div>
 
+          <!-- VIEW ALL -->
           <a
             href="#"
-            class="btn btn-outline-light fw-normal mt-3 d-flex align-items-center justify-content-between gap-2 rounded-pill py-3"
+            class="btn-ui outline primary fw-normal mt-3 d-flex align-items-center justify-content-between gap-2 rounded-pill py-3"
           >
             <span>Tümünü Görüntüle</span>
-            <span class="btn-icon-svg right-icon right-icon"></span>
+            <span class="btn-icon-svg right-icon"></span>
           </a>
         </div>
 
         <!-- ARTICLE LIST -->
 
         <!-- ITEM -->
-        <div class="card mb-3 shadow-sm border-0">
-          <div class="card-body card-item">
+        <div class="card mb-3 shadow-sm border-0 rounded-4">
+          <div class="card-body card-item rounded-4">
             <div
               class="d-flex justify-content-between align-items-end flex-wrap gap-3"
             >
               <!-- LEFT -->
               <div>
                 <div class="mb-2">
-                  <span class="badge bg-secondary fw-normal">İklim</span>
-                  <span class="badge bg-light text-primary fw-normal border"
-                    >Araştırma Makalesi</span
-                  >
+                  <span class="badge-ui climate rounded fw-normal"> İklim</span>
+                  <span class="badge bg-light bg-light-custom border-0 text-ui-primary fw-normal border">
+                    Araştırma Makalesi
+                  </span>
                 </div>
 
                 <div
@@ -96,7 +100,6 @@
                     <span class="icon-circle">
                       <span class="btn-icon-svg icon-stickyNotes"></span>
                     </span>
-
                     <span class="text-dark">
                       Elif Başkaya Acar, Emre Taran, Halil Başar
                     </span>
@@ -106,16 +109,19 @@
 
               <!-- ACTIONS -->
               <div class="d-flex gap-2 align-items-center">
-                <button class="btn btn-outline-light btn-circle">
+                <!-- SHARE -->
+                <button class="btn-ui outline secondary btn-icon">
                   <span class="btn-icon-svg icon-export-email"></span>
                 </button>
 
-                <button class="btn btn-outline-light btn-circle">
+                <!-- DOWNLOAD -->
+                <button class="btn-ui outline primary btn-icon">
                   <span class="btn-icon-svg icon-download"></span>
                 </button>
 
+                <!-- VIEW -->
                 <button
-                  class="btn btn-secondary rounded-pill d-flex align-items-center justify-content-between gap-2 px-4 py-3"
+                  class="btn-ui secondary rounded-pill d-flex align-items-center justify-content-between gap-2 px-4 py-3"
                 >
                   <span class="btn-icon-svg icon-eye bg-white"></span>
                   <span>Görüntüle</span>

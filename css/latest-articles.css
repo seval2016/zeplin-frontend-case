@@ -12,7 +12,7 @@
 /* ICON BUTTON */
 .btn-vertical-text {
   writing-mode: vertical-rl;
-  transform: rotate(180deg); /* aşağıdan yukarı okutmak için */
+  transform: rotate(180deg);
 
   display: inline-flex;
   align-items: center;
@@ -23,30 +23,14 @@
   letter-spacing: 1px;
 }
 
-.icon-export-email {
+.icon-export-email,.icon-author,.icon-stickyNotes,.icon-download{
   background-color: var(--dark);
-  mask-image: url("../assets/icons/export-email.svg");
 }
 
-.icon-author {
-    background-color: var(--dark);
-  mask-image: url("../assets/icons/author.svg");
-}
-
-.icon-stickyNotes {
-  background-color: var(--dark);
-  mask-image: url("../assets/icons/stickyNotes.svg");
-}
-.icon-download {
-  
-  background-color: var(--dark);
-  mask-image: url("../assets/icons/download.svg");
-}
 .icon-pdf {
   width: 22px !important;
   height: 22px !important;
   background-color: var(--pageGray);
-  mask-image: url("../assets/icons/pdf.svg");
 }
 
 /* SMALL ICON BUTTON CIRCLE */
@@ -54,14 +38,11 @@
 .icon-circle {
   width: 32px;
   height: 32px;
-
   background: #f0f0f3;
   border-radius: 50%;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   flex-shrink: 0;
 }
 

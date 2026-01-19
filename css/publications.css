@@ -46,48 +46,30 @@
 /* ICONS */
 
 .pdf-icon {
-  width: 22px !important;
-  height: 22px !important;
-  background-color: var(--pageGray);
-  -webkit-mask-image: url("../assets/icons/pdf.svg");
-  mask-image: url("../assets/icons/pdf.svg");
-}
+  width: 30px !important;
+  height: 30px !important;
+  background-color: var(--pageGray);}
 
-.icon-book {
-  -webkit-mask-image: url("../assets/icons/cilt.svg");
-  mask-image: url("../assets/icons/cilt.svg");
-}
-
-.icon-file {
-  -webkit-mask-image: url("../assets/icons/number.svg");
-  mask-image: url("../assets/icons/number.svg");
-}
-
-.icon-calendar {
-  -webkit-mask-image: url("../assets/icons/calendar.svg");
-  mask-image: url("../assets/icons/calendar.svg");
-}
-
-.right-icon {
+.icon-book ,.icon-file ,.icon-calendar,.left-icon  {
   background-color: var(--dark);
-  -webkit-mask-image: url("../assets/icons/right.svg");
-  mask-image: url("../assets/icons/right.svg");
+}
+.right-icon{
+  background-color: var(--secondary);
 }
 
-.left-icon {
+.left-icon  {
   background-color: var(--gray);
-  -webkit-mask-image: url("../assets/icons/left.svg");
-  mask-image: url("../assets/icons/left.svg");
 }
 
-.icon-download {
-  -webkit-mask-image: url("../assets/icons/download.svg");
-  mask-image: url("../assets/icons/download.svg");
-}
+/* BADGE */
 
-.icon-eye {
-  -webkit-mask-image: url("../assets/icons/eye.svg");
-  mask-image: url("../assets/icons/eye.svg");
+.card-badge{
+  font-size: 13px;
+}
+/*=================================*/
+
+.bg-btnlight{
+  background-color: #F5F7FF ;
 }
 
 /* RESPONSIVE */

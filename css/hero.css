@@ -54,22 +54,6 @@
   font-size: var(--font-md);
 }
 
-/* ikonlar */
-.icon-book {
-  mask-image: url("../assets/icons/cilt.svg");
-}
-
-.icon-file {
-  mask-image: url("../assets/icons/number.svg");
-}
-
-.icon-calendar {
-  mask-image: url("../assets/icons/calendar.svg");
-}
-
-.right-icon{
-  mask-image: url("../assets/icons/right.svg");
-}
 
 /* SAĞ IMAGE */
 
@@ -80,7 +64,7 @@
 
 .hero-image {
   position: absolute;
-  top:0;
+  top:50px;
   left: 0;
 }
 
