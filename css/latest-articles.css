@@ -1,33 +1,30 @@
-.latest-articles-left {
-  border: 4px solid #ffd9da !important;
+.latest-articles-left.border {
+  border: 4px solid #ffd9da;
 }
 
-/* CARD*/
-
-.card-item {
-  border: 2px solid #dfe3f1;
+/* CARD */
+.article-card {
   border-radius: 20px;
 }
+.latest-articles .article-card {
+  border: 2px solid #DFE3F1;
+}
+
+
 
 /* ICON BUTTON */
 .btn-vertical-text {
   writing-mode: vertical-rl;
   transform: rotate(180deg);
-
   display: inline-flex;
   align-items: center;
   justify-content: center;
-
   padding: 12px 5px;
   font-size: var(--font-sm);
   letter-spacing: 1px;
 }
 
-.icon-export-email,.icon-author,.icon-stickyNotes,.icon-download{
-  background-color: var(--dark);
-}
-
-/* ================= SMALL ICON BUTTON CIRCLE ================= */
+/* SMALL ICON CIRCLE */
 
 .icon-circle {
   width: 32px;
@@ -40,3 +37,10 @@
   flex-shrink: 0;
 }
 
+/* TITLE */
+
+.article-title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+}

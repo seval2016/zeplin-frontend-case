@@ -9,19 +9,6 @@
   align-items: center;
 }
 
-/* Overlay */
-.hero-section::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    90deg,
-    rgba(8, 21, 66, 0.95) 0%,
-    rgba(8, 21, 66, 0.7) 50%,
-    rgba(8, 21, 66, 0.2) 100%
-  );
-}
-
 .hero-section .container {
   position: relative;
   z-index: 2;
@@ -34,11 +21,7 @@
 }
 
 .hero-desc {
-  width: 350px;
-}
-.hero-btn {
-  width: 200px;
-  font-size: var(--font-md);
+  max-width: 350px;
 }
 
 /* META */

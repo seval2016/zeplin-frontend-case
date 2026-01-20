@@ -26,6 +26,13 @@
 
   /* Font */
   --font-family: "Inter", sans-serif;
+
+  /* Font Size */
+  --font-sm: 14px;
+  --font-md: 16px;
+  --font-lg: 18px;
+  --font-xl: 20px;
+  --font-xxl: 24px;
 }
 
 /* ================= GLOBAL ================= */
@@ -400,36 +407,6 @@ h6 {
 .text-ui-pagegray{
   color:var(--pageGray);
 }
-
-/* ================= WIDTH UTILITIES ================= */
-
-.w-ui-25 { width:25%; }
-.w-ui-50 { width:50%; }
-.w-ui-75 { width:75%; }
-.w-ui-100 { width:100%; }
-
-.w-ui-auto { width:auto; }
-
-.w-ui-xs { width:80px; }
-.w-ui-sm { width:120px; }
-.w-ui-md { width:160px; }
-.w-ui-lg { width:220px; }
-.w-ui-xl { width:280px; }
-
-/* ================= HEIGHT UTILITIES ================= */
-
-.h-ui-25 { height:25%; }
-.h-ui-50 { height:50%; }
-.h-ui-75 { height:75%; }
-.h-ui-100 { height:100%; }
-
-.h-ui-auto { height:auto; }
-
-.h-ui-xs { height:32px; }
-.h-ui-sm { height:40px; }
-.h-ui-md { height:50px; }
-.h-ui-lg { height:60px; }
-.h-ui-xl { height:80px; }
 
 /* =================  BACKGROUND COLORS ================= */
 

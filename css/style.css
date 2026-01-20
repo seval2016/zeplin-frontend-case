@@ -4,7 +4,6 @@
 @import url("base.css");
 @import url("header.css");
 @import url("hero.css");
-@import url("about.css");
 @import url("publications.css");
 @import url("cta.css");
 @import url("latest-articles.css");
@@ -55,7 +54,7 @@
 }
 
 .section-desc {
-  font-size: var(--font-md);
+  font-size: var(--font-sm);
   line-height: 1.6;
   color: var(--dark);
 }
@@ -102,16 +101,6 @@ a:hover {
   justify-content: center;
 }
 
-.btn-small {
-  width: 20px;
-  height: 20px;
-  padding: 0;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .btn-icon-svg {
   width: 14px;
   height: 14px;
@@ -122,9 +111,6 @@ a:hover {
   mask-position: center;
   -webkit-mask-size: contain;
   mask-size: contain;
-}
-.btn-ui.outline:hover .btn-icon-svg {
-  background-color: #fff;
 }
 
 /*ICONS*/

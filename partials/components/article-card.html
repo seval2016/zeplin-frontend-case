@@ -1,0 +1,108 @@
+<article class="article-card card mb-3 shadow-sm rounded-4">
+  <div class="card-body rounded-4">
+
+    <div
+      class="d-flex flex-column flex-lg-row
+      justify-content-between gap-3"
+    >
+
+      <!-- LEFT -->
+      <div>
+
+        <!-- BADGES -->
+        <div class="mb-2 d-flex flex-wrap gap-2">
+          <span class="badge-ui climate fw-normal">
+            {{category}}
+          </span>
+
+          <span
+            class="badge bg-light border
+            text-ui-primary fw-normal"
+          >
+            {{type}}
+          </span>
+        </div>
+
+        <!-- TITLE -->
+        <div class="d-flex align-items-start gap-3">
+          <span class="btn-icon-svg icon-pdf bg-ui-pagegray"></span>
+
+          <h3 class="article-title mb-2">
+            {{title}}
+          </h3>
+        </div>
+
+        <!-- META -->
+        <div
+          class="text-muted small
+          d-flex flex-column flex-md-row
+          gap-3 flex-wrap"
+        >
+
+          <div class="d-flex align-items-center gap-2">
+            <span class="icon-circle">
+              <span
+                class="btn-icon-svg icon-author bg-ui-dark"
+              ></span>
+            </span>
+            <span class="text-dark">Sayı:</span>
+            <strong>{{pages}}</strong>
+          </div>
+
+          <div class="d-flex align-items-center gap-2">
+            <span class="icon-circle">
+              <span
+                class="btn-icon-svg icon-stickyNotes bg-ui-dark"
+              ></span>
+            </span>
+            <span class="text-dark">
+              {{authors}}
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ACTIONS -->
+      <div
+        class="d-flex flex-wrap
+        gap-2 align-items-center"
+      >
+
+        <!-- SHARE -->
+        <button
+          class="btn-ui outline secondary btn-icon"
+          aria-label="Paylaş"
+        >
+          <span
+            class="btn-icon-svg icon-export-email bg-ui-dark"
+          ></span>
+        </button>
+
+        <!-- DOWNLOAD -->
+        <a
+          href="{{downloadUrl}}"
+          class="btn-ui outline primary btn-icon"
+          aria-label="PDF indir"
+        >
+          <span
+            class="btn-icon-svg icon-download bg-ui-dark"
+          ></span>
+        </a>
+
+        <!-- VIEW -->
+        <a
+          href="{{detailUrl}}"
+          class="btn-ui secondary rounded-pill
+          d-flex align-items-center gap-2"
+        >
+          <span
+            class="btn-icon-svg icon-eye bg-white"
+          ></span>
+          Görüntüle
+        </a>
+
+      </div>
+
+    </div>
+  </div>
+</article>

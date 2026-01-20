@@ -23,7 +23,7 @@
   position: absolute;
   inset: 0;
   width: 260px;
-  height: 124px;
+  height: 115px;
   background: var(--secondary);
   border-top-right-radius: 80px; /* FİGMA DETAY */
   display: flex;
@@ -48,7 +48,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 28px;
+  padding: 0 10px;
 }
 
 .info-left,
@@ -59,17 +59,14 @@
 /* ================= NAVBAR ================= */
 
 .main-navbar {
-  background: #fff;
   padding-left: 250px;
-  border-bottom: 1px solid var(--light);
 }
 
 .navbar-inner {
-  padding: 14px 28px;
+  padding: 10px 20px;
 }
 
 .main-navbar .nav-link {
-  color: var(--dark);
   font-size: 14px;
   font-weight: 500;
 }
@@ -81,10 +78,9 @@
 
 /* ================= ICONS ================= */
 
-.home-icon {
-  width: 22px !important;
-  height: 22px !important;
-  background: var(--success);
+.btn-icon-svg.icon-size {
+  width: 22px;
+  height: 22px;
 }
 
 .nav-link:hover .nav-icon {
@@ -125,6 +121,7 @@
   padding: 24px;
   margin-top: 120px;
 }
+
 
 @media (max-width: 1199px) {
   /* LOGO */
@@ -185,9 +182,9 @@
     justify-content: center;
   }
 
-  .btn-search {
-    width: 42px !important;
-  }
+  .btn-ui.btn-icon.btn-search {
+  width: 42px;
+}
 }
 /* Mobile */
 @media (max-width: 768px) {
